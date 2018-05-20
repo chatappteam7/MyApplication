@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ndh.sqlite.Sua">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Sua thong tin hoc sinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtsuaten"
+        android:hint="Nhap moi hoc ten hoc sinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtsuanamsinh"
+        android:hint="Nhap moi nam sinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtsuadichi"
+        android:hint="Nhap moi dia chi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <RelativeLayout
+       android:layout_marginTop="5dp"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/btnxacnhan"
+           android:text="Xac nhan"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:layout_toRightOf="@id/btnxacnhan"
+           android:id="@+id/btnhuy"
+           android:text="huy"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </RelativeLayout>
+</LinearLayout>

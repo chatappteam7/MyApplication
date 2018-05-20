@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/menuinsert"
+            android:title="Them"
+            android:icon="@android:drawable/btn_plus"
+            app:showAsAction="always"/>
+    <group android:id="@+id/menucap2" >
+        <item>
+            <menu>
+                <item android:title="Facebook">
+
+                </item>
+                <item android:title="Zalo">
+
+                </item>
+                <item android:title="Intaggram">
+
+                </item>
+            </menu>
+        </item>
+    </group>
+</menu>
